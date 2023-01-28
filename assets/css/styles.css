@@ -181,9 +181,13 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
-
+    
     .introcontainer, .gridp {
         grid-template-columns: 1fr;
+    }
+    
+    .contactform {
+        grid-column: span 1;
     }
 
     .galleryimg {
@@ -273,9 +277,5 @@ body .full-width {
 
     .menuspacing {
         display: none;
-    }
-    
-    .contactform {
-        grid-column: span 1;
     }
 }
