@@ -181,6 +181,11 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
+    
+    h1 {
+        font-size: 
+    }
+    
     .introcontainer, .gridp {
         grid-template-columns: 1fr;
     }
